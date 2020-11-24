@@ -1,0 +1,6 @@
+framework module JMain {
+  umbrella header "JMain-umbrella.h"
+
+  export *
+  module * { export * }
+}
