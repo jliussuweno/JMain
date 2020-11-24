@@ -556,7 +556,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/JMain/JMain-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/JMain/JMain-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/JMain/JMain.modulemap";
 				PRODUCT_MODULE_NAME = JMain;
@@ -587,7 +587,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/JMain/JMain-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/JMain/JMain-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/JMain/JMain.modulemap";
 				PRODUCT_MODULE_NAME = JMain;
