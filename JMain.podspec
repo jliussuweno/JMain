@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'JMain'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of JMain.'
+  s.summary          = 'Collections of modules standard in application.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,8 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+  Collections of modules standard in application.
+  This is my library.
                        DESC
 
   s.homepage         = 'https://github.com/jliussuweno/JMain'
@@ -28,9 +29,12 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/jliussuweno/JMain.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '14.2'
+  
+  s.source_files = 'JMain/Classes/**/*.{h,m}'
+  s.resources = 'JMain/Classes/**/*.{xcassets,json,storyboard,xib,xcdatamodeld}'
 
-  s.source_files = 'JMain/Classes/**/*'
+#  s.source_files = 'JMain/Classes/**/*'
   
   # s.resource_bundles = {
   #   'JMain' => ['JMain/Assets/*.png']
