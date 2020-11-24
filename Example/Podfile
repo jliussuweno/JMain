@@ -1,0 +1,6 @@
+use_frameworks!
+target 'JMain_Tests' do
+  pod 'JMain', :path => '../'
+  
+  
+end
