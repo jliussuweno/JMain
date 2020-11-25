@@ -20,6 +20,7 @@
 		6FD68085256D58DA00E58A50 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FD6807B256D58DA00E58A50 /* LoginViewController.m */; };
 		6FD68086256D58DA00E58A50 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6FD6807C256D58DA00E58A50 /* LoginViewController.xib */; };
 		6FD68087256D58DA00E58A50 /* LoginViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FD6807D256D58DA00E58A50 /* LoginViewController.h */; };
+		6FD680D2256DEB0000E58A50 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6FD680D1256DEB0000E58A50 /* Assets.xcassets */; };
 		957C894777091A9B319888EEB6CBF8BB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		B8C57715687BEE4519D711D2AEA3ED9B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		F76C95346D5BF9DB6D01173C8022CCAC /* JMain-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 865C7FEC36246E99757B83F58358B00A /* JMain-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -53,6 +54,7 @@
 		6FD6807B256D58DA00E58A50 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		6FD6807C256D58DA00E58A50 /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
 		6FD6807D256D58DA00E58A50 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		6FD680D1256DEB0000E58A50 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		785BBFA2E8BE76681BF20DD372628596 /* JMain.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JMain.modulemap; sourceTree = "<group>"; };
 		79B4C7F1529DE4F991B4FF24EB7EC047 /* Pods-JMain_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JMain_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -163,6 +165,7 @@
 		6FD68070256D58DA00E58A50 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				6FD680D1256DEB0000E58A50 /* Assets.xcassets */,
 				6FD68071256D58DA00E58A50 /* Home */,
 				6FD68075256D58DA00E58A50 /* .gitkeep */,
 				6FD68076256D58DA00E58A50 /* Register */,
@@ -344,6 +347,7 @@
 				6FD6807F256D58DA00E58A50 /* HomeViewController.xib in Resources */,
 				6FD68081256D58DA00E58A50 /* .gitkeep in Resources */,
 				6FD68083256D58DA00E58A50 /* RegisterViewController.xib in Resources */,
+				6FD680D2256DEB0000E58A50 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
